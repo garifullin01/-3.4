@@ -38,7 +38,6 @@ public class Loader {
     Cat j = new Cat();
     j.feed(2000.);
     System.out.println(Cat.getCount());
-    System.out.println(murka.getStatus());
   }
 
 }
