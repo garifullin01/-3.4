@@ -52,13 +52,14 @@ public class Cat
         System.out.println("Meow");
     }
 
-    public void feed(Double amount)
-    {
+    public void feed(Double amount) {
+      if (weight <= maxWeight) {
         weight = weight + amount;
-        if(weight > maxWeight){
-            count = count - 1;
-        }
+        if (weight > maxWeight) {
+          count = count - 1;
 
+        }
+      }
     }
 
     public void drink(Double amount)
