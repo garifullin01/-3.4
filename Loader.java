@@ -36,7 +36,7 @@ public class Loader {
     System.out.println(Cat.getCount());
 
     Cat j = new Cat();
-    j.feed(900.);
+    j.feed(2000.);
     System.out.println(Cat.getCount());
   }
 
